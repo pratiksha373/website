@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /*CSS for Home Section */
+  #home {
+    background: url('1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #home .overlay {
+    background: rgba(14, 12, 16, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* CSS for About Us Section */
+  #about {
+    background: #e4bcbc;
+  }
+  
+  #about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #about img {
+    max-width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+  
+  /*CSS for  Products Section */
+  #products {
+    background: #cde2a5;
+  }
+  #products .product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #products .product-item img {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  #products .product-item p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /*CSS for Services Section */
+  #services {
+    background: #95c6d1;
+  }
+  #services .services-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #services .service-item img {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  #services .service-item p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /*CSS for  Contact Section */
+  #contact {
+    background: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /*CSS for  Footer */
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  /*CSS for solar.html , battery.html , invorter.html*/
+.solar-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    background-color: #92c6c6;
+    border-radius: 8px;
+}
+.solar-info-text{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-size: 40px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
